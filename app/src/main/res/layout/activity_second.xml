@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text2View"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:textSize="24dp"
+            android:text="Досье:"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/text2View2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Егор Иванович" />
+
+        <TextView
+            android:id="@+id/text2View3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="39 лет"
+            android:paddingBottom="20dp"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Вернуться на первый экран" />
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>
